@@ -1,0 +1,21 @@
+div {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+}
+
+div > p {
+  display: none;
+}
+
+div:hover > p {
+  background-color: red;
+  display: block;
+}
+
+.subtitulo {
+  background-color: blueviolet;
+}
+
+h1#principal {
+  text-align: center;
+}

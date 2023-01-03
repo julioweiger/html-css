@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgray;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+}
+
+nav {
+  background-color: gray;
+  padding: 5px;
+  box-shadow: 2px 2px 4px 1px black;
+}
+
+nav > a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+h2#principal {
+  text-align: center;
+}
+
+p#subtitulo {
+  text-align: center;
+  text-decoration: underline;
+}
+
+article > aside {
+  text-align: justify;
+  background-color: gray;
+  padding: 5px;
+}
+
+aside {
+  text-align: justify;
+  padding: 5px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
