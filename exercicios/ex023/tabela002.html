@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+  <style>
+    table {
+      width: 600px;
+      text-align: center;
+      border-collapse: collapse;
+    }
+
+    table th,
+    td {
+      border: 1px solid black;
+    }
+
+    table th {
+      background-color: lightgrey;
+    }
+
+    table td#total {
+      background-color: lightgrey;
+    }
+
+    table td.num {
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Uso de tabelas grandes</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Posição</th>
+        <th>Município</th>
+        <th>Estado</th>
+        <th>População</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>São Paulo</td>
+        <td>São Paulo</td>
+        <td class="num">12 325 232</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Rio de Janeiro</td>
+        <td>Rio de Janeiro</td>
+        <td class="num">6 747 815</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Brasília</td>
+        <td>Distrito Federal</td>
+        <td class="num">3 055 149</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Salvador</td>
+        <td>Bahia</td>
+        <td class="num">2 886 698</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Fortaleza</td>
+        <td>Ceará</td>
+        <td class="num">2 686 612</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Belo Horizonte</td>
+        <td>Minas Gerais</td>
+        <td class="num">2 521 564</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Manaus</td>
+        <td>Amazonas</td>
+        <td class="num">2 219 580</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Curitiba</td>
+        <td>Paraná</td>
+        <td class="num">1 948 626</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Recife</td>
+        <td>Pernambuco</td>
+        <td class="num">1 653 461</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Goiânia</td>
+        <td>Goiás</td>
+        <td class="num">1 536 097</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>Total de Habitantes no top10</th>
+        <td>-</td>
+        <td>-</td>
+        <td class="num" id="total"><strong>37 580 834</strong></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
